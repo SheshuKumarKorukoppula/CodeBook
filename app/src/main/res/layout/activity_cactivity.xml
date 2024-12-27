@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_systems_a_computer_is_an_electronic_device_which_performs_operations_such_as_accepts_data_as_an_input_store_the_data_manipulate_or_process_the_data_and_produce_the_results_an_output_main_task_performed_by_a_computer_accept_the_data_process_or_manipulate_the_data_display_or_store_the_result_in_the_form_of_human_understanding_store_the_data_instructions_and_results"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_software_is_a_collection_of_computer_programs_and_related_data_that_provides_the_instructions_for_a_computer_what_to_do_and_how_to_do_it_software_refers_to_one_or_more_computer_programs_and_data_held_in_the_storage_of_the_computer_for_some_purpose"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/basically_computer_software_is_of_three_main_types_system_software_system_software_is_responsible_for_managing_a_variety_of_independent_hardware_components_so_that_they_can_work_together_its_purpose_is_to_unburden_the_application_software_programmer_from_the_often_complex_details_of_the_particular_computer_being_used_including_such_accessories_as_communications_devices_printers_device_readers_displays_and_keyboards_and_also_to_partition_the_computer_s_resources_such_as_memory_and_processor_time_in_a_safe_and_stable_manner_device_drivers_operating_systems_servers_utilities_window_systems_programming_software_programming_software_usually_provides_tools_to_assist_a_programmer_in_writing_computer_programs_and_software_using_different_programming_languages_in_a_more_convenient_way_the_tools_include_compilers_debuggers_interpreters_linkers_text_editors_application_software_application_software_is_developed_to_aid_in_any_task_that_benefits_from_computation_it_is_a_broad_category_and_encompasses_software_of_many_kinds_including_the_internet_browser_being_used_to_display_this_page_this_category_includes_business_software_computer_aided_design_databases_decision_making_software_educational_software_image_editing_computing_environment_computing_environment_is_a_collection_of_computers_machines_software_and_networks_that_support_the_processing_and_exchange_of_electronic_information_meant_to_support_various_types_of_computing_solutions"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_software_is_a_collection_of_computer_programs_and_related_data_that_provides_the_instructions_for_a_computer_what_to_do_and_how_to_do_it_software_refers_to_one_or_more_computer_programs_and_data_held_in_the_storage_of_the_computer_for_some_purpose"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_software_is_a_collection_of_computer_programs_and_related_data_that_provides_the_instructions_for_a_computer_what_to_do_and_how_to_do_it_software_refers_to_one_or_more_computer_programs_and_data_held_in_the_storage_of_the_computer_for_some_purpose"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_software_is_a_collection_of_computer_programs_and_related_data_that_provides_the_instructions_for_a_computer_what_to_do_and_how_to_do_it_software_refers_to_one_or_more_computer_programs_and_data_held_in_the_storage_of_the_computer_for_some_purpose"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
