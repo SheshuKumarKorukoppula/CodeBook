@@ -15,7 +15,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void compilers(View view) {
-        startActivity(new Intent(WelcomeActivity.this,CompilerActivity.class));
+        startActivity(new Intent(WelcomeActivity.this,CompilersActivity.class));
     }
 
     public void concepts(View view) {
